@@ -1,2 +1,27 @@
-@import './common';
+@import './utils/common';
 
+@import './base/reset.scss';
+
+@import './base/container.scss';
+
+@import './utils/placeholders.scss';
+
+@import './utils/mixin.scss';
+
+@import './partials/header.scss';
+
+@import './partials/hero.scss';
+
+@import './partials/advantages.scss';
+
+@import './partials/luxury.scss';
+
+@import './partials/about.scss';
+
+@import './partials/reviews.scss';
+
+@import './partials/faq.scss';
+
+@import './partials/buy.scss';
+
+@import './partials/feedback.scss';
