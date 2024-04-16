@@ -1,5 +1,15 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-Group-422" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.8" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4571" d="M31.771 16c0 8.71-7.061 15.771-15.771 15.771s-15.771-7.061-15.771-15.771c0-8.71 7.061-15.771 15.771-15.771s15.771 7.061 15.771 15.771z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.8" d="M28.343 16c0 6.817-5.526 12.343-12.343 12.343s-12.343-5.526-12.343-12.343c0-6.817 5.526-12.343 12.343-12.343s12.343 5.526 12.343 12.343z"></path>
+</symbol>
+<symbol id="icon-Group-421" viewBox="0 0 32 32">
+<path fill="#1d1d1d" style="fill: var(--color2, #1d1d1d)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4571" d="M31.771 16c0 8.71-7.061 15.771-15.771 15.771s-15.771-7.061-15.771-15.771c0-8.71 7.061-15.771 15.771-15.771s15.771 7.061 15.771 15.771z"></path>
+<path fill="#000" style="fill: var(--color3, #000); stroke: var(--color4, #df3d3a)" stroke="#df3d3a" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9143" d="M27.886 16c0 6.564-5.321 11.886-11.886 11.886s-11.886-5.321-11.886-11.886c0-6.564 5.321-11.886 11.886-11.886s11.886 5.321 11.886 11.886z"></path>
+</symbol>
 <symbol id="icon-Vector" viewBox="0 0 31 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.7826" d="M1.391 29.783l27.826-27.826M29.217 1.957h-27.826M29.217 1.957v27.826"></path>
 </symbol>
