@@ -83,22 +83,13 @@ flex-shrink: 0;
 cursor: pointer;
 }
 
-.container{
+.buy-container{
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.buy-content{
-    margin-right: 150px;
-    margin-left: 170px;
-}
-
-.buy-image{
-    position: relative;
-    margin-left: 150px;
-}
 
 .buy-line{
     width: 400px;
@@ -115,4 +106,8 @@ margin-bottom: 26px;
     margin-top: 26px;
     display: flex;
     justify-content: space-between;
+}
+
+.buy-content{
+    margin-left: 190px;
 }
