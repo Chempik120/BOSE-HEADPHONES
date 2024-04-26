@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.foot {
+  background-color: #191919;
+  background-image: url(../../images/foot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  padding-top: 694px;
+  padding-bottom: 74px;
+}
+
+.conteiner-foot {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.left-foot {
+  margin-right: 150px;
+}
+
+.h2-foot {
+  /* Feedback */
+
+  width: 400px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 120%;
+  /* identical to box height, or 65px */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #e7e7e7;
+  margin-bottom: 50px;
+}
+
+.p-foot {
+  /* We'll help you find the right headphones for you. */
+
+  width: 400px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  /* or 35px */
+
+  color: #e7e7e7;
+}
+
+.form-foot {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-foot {
+  display: flex;
+}
+
+.input-foot:not(:last-child) {
+  padding-bottom: 17px;
+  margin-bottom: 42px;
+}
+
+.input-foot {
+  border: 0;
+  border-bottom: 1px solid #2b2b2b;
+  background-color: transparent;
+  /* Send us a message */
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 70%;
+  /* or 14px */
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.a {
+  height: 120px;
+  resize: none;
+  margin-bottom: 51px;
+  width: 510px;
+}
+
+.checkbox-foot {
+  margin-bottom: 89px;
+}
+
+.checkbox {
+  display: block;
+
+  width: 30px;
+  height: 30px;
+  border: 2px solid #e9edfa;
+}
+
+.p2-foot {
+  /* I agree to the privacy policy */
+
+  width: 279.75px;
+  height: 26px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* 5/1 */
+  color: #e9edfa;
+  margin-left: 29px;
+}
+
+.button-foot {
+  /* send */
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  background-color: transparent;
+  border: 1px solid #df3d3a;
+  padding: 22px 0;
+}
