@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 .foot {
@@ -144,4 +145,46 @@
   background-color: transparent;
   border: 1px solid #df3d3a;
   padding: 22px 0;
+}
+
+.footer {
+  width: 1170px;
+}
+
+.ul2-foot {
+  display: flex;
+}
+
+.conteiner-foot2 {
+  margin: 0 auto;
+  padding-left: 190px;
+  padding-right: 80px;
+  padding-top: 170px;
+  width: 1170px;
+}
+
+.li2-foot:not(:last-child) {
+  margin-left: 50px;
+  /* Characteristics */
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* identical to box height, or 20px */
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.nomber-foot {
+  /* 8 (800) 111-11-11 */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.8);
 }
