@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("#buy-image"),t=document.querySelector("#buy-image-white"),i=document.querySelector("#buy-white-button"),u=document.querySelector("#buy-black-button");i.addEventListener("click",(function(i){e.classList.add("visually-hidden"),t.classList.remove("visually-hidden")})),u.addEventListener("click",(function(i){e.classList.remove("visually-hidden"),t.classList.add("visually-hidden")}))}();
+//# sourceMappingURL=index.abc24230.js.map

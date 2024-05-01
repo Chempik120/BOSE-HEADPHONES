@@ -1,0 +1,2 @@
+const e=document.querySelector("#buy-image"),t=document.querySelector("#buy-image-white"),i=document.querySelector("#buy-white-button"),c=document.querySelector("#buy-black-button");i.addEventListener("click",(function(i){e.classList.add("visually-hidden"),t.classList.remove("visually-hidden")})),c.addEventListener("click",(function(i){e.classList.remove("visually-hidden"),t.classList.add("visually-hidden")}));
+//# sourceMappingURL=index.de641e0b.js.map
