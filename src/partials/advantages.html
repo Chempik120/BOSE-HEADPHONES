@@ -1,7 +1,13 @@
 <section class="advantages">
   <div class="advantages_conteiner">
     <div class="advantages_conteiner2">
-      <img class="advantages_img" src="./img/imgone.webp" alt="" />
+      <picture>
+        <source srcset="./img/imgone.webp 1x" media="(min-width: 1200px)" />
+        <source srcset="./img/imgonetablet.png 1x" media="(min-width: 768px)" />
+        <source srcset="./img/imgphone.png 1x" media="(min-width: 0px)" />
+        <img class="advantages_img" src="./img/imgphone.png" alt="" />
+      </picture>
+
       <div class="advantages_conteiner3">
         <h2 class="advantages_heading">Premium design and comfort</h2>
         <ul class="advantages_list">
