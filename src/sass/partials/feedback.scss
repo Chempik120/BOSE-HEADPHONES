@@ -183,8 +183,7 @@
 
 .conteiner-foot2 {
   margin: 0 auto;
-  padding-left: 190px;
-  padding-right: 80px;
+
   padding-top: 170px;
   width: 1170px;
   @media screen and (max-width: 1199px) {
@@ -202,14 +201,30 @@
 .div1-foot {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 52px;
+  @media screen and (min-width: 1440px) {
+    justify-content: end;
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 52px;
+  }
 }
 
 .ul2-foot {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    margin-right: 50px;
+  }
   margin-right: 179px;
+  @media screen and (max-width: 768px) {
+    margin-right: 45px;
+  }
 }
 
 .ul3-foot {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
   @media screen and (max-width: 768px) {
     text-align: right;
   }
@@ -225,6 +240,9 @@
   /* identical to box height, or 20px */
 
   color: rgba(255, 255, 255, 0.3);
+  @media screen and (min-width: 1440px) {
+    margin-right: 50px;
+  }
   @media screen and (max-width: 1199px) {
     &:not(:last-child) {
       margin-bottom: 24px;
