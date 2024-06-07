@@ -13,6 +13,10 @@
   background-position: top;
   padding-top: 694px;
   padding-bottom: 74px;
+  @media screen and (max-width: 1199px) {
+    padding-top: 460px;
+    padding-bottom: 50px;
+  }
 }
 
 .conteiner-foot {
@@ -20,10 +24,19 @@
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+
+  @media screen and (max-width: 1199px) {
+    display: block;
+    width: 648px;
+  }
 }
 
 .left-foot {
   margin-right: 150px;
+  @media screen and (max-width: 1199px) {
+    margin-right: 0;
+    margin-bottom: 52px;
+  }
 }
 
 .h2-foot {
@@ -42,6 +55,9 @@
 
   color: #e7e7e7;
   margin-bottom: 50px;
+  @media screen and (max-width: 1199px) {
+    font-size: 30px;
+  }
 }
 
 .p-foot {
@@ -57,6 +73,10 @@
   /* or 35px */
 
   color: #e7e7e7;
+  @media screen and (max-width: 1199px) {
+    // width: 445px;
+    font-size: 20px;
+  }
 }
 
 .form-foot {
@@ -148,7 +168,6 @@
 }
 
 .footer {
-  width: 1170px;
 }
 
 .ul2-foot {
@@ -160,11 +179,10 @@
   padding-left: 190px;
   padding-right: 80px;
   padding-top: 170px;
-  width: 1170px;
 }
 
 .li2-foot:not(:last-child) {
-  margin-left: 50px;
+  margin-right: 50px;
   /* Characteristics */
   font-family: 'Gilroy';
   font-style: normal;
@@ -184,6 +202,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  margin-left: 270px;
+
   /* identical to box height */
 
   color: rgba(255, 255, 255, 0.8);
