@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.lux{
+    background: #191919;
+
+}
+
+.conteiner-lux{
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.div-imglux{
+    position: relative;
+    width: 100vw;
+    left: 0;
+}
+
+.img-lux{
+    display: block;
+    width: 100%;
+}
+  
+.lux-h2{
+    /* The luxury of silence */
+
+text-align: end;
+position: relative;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 120%;
+/* identical to box height, or 65px */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #E7E7E7;
+
+}
+
+.lux-ul{
+    display: flex;   
+    
+}
+
+.lux-li:not(:last-child){
+    margin-right: 40px;
+}
+
+.lux-h3{
+    /* Maximum enjoyment */
+
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+/* or 35px */
+
+color: #E7E7E7;
+
+}
+
+.lux-p{
+    /* The speaker system and brand name active equalizer are able to provide high-quality and powerful sound at any volume level. You can be sure of no distortion and crystal clear at high and low frequencies. */
+
+width: 510px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 145%;
+/* or 29px */
+
+color: rgba(255, 255, 255, 0.8);
+
+
+}
+
