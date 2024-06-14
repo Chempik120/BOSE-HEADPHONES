@@ -1,0 +1,142 @@
+.header{
+  background: #191919;
+  @media  screen and (min-width:1440px) {
+    padding-top: 66px;
+    padding-bottom: 71px;
+  }
+}
+.header-div{
+  width: 360px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  @media  screen  and (min-width:768px){
+     width: 768px;
+  }
+  @media  screen and (min-width:1440px){
+    width: 1320px;
+  }
+}
+.header-logo{
+  height: 12px;
+  top: 30px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 158px;
+  @media  screen  and (min-width:768px){
+    width: 768px;
+ }
+ @media screen and (min-width:1440px){
+  display: block;
+  width: 130px;
+  height: 15px;
+  margin-right: 463px;
+  
+ }
+}
+.header-svg{
+  fill: #e7e7e7;
+  width: 100px;
+  height: 12px;
+  top: 29.28px;
+  left: 278px;
+  gap: 0px;
+  opacity: 0px;
+  @media screen and (min-width:1440px){
+    width: 130px;
+    height: 15px;
+  }
+}
+.header-burger{
+background-color: transparent;
+border: none;
+cursor: pointer;
+@media screen and (min-width:1440px){
+  display: none;
+}
+}
+.header-nav{
+@media screen and (max-width:1439px){
+  display: none;
+}
+display: flex;
+align-items: center;
+}
+.header-ul{
+display: flex;
+align-items: center;
+}
+.header-li{
+
+
+}
+.header-li:not(:last-child){
+  margin-right: 77px;
+}
+.header-a{
+  color: #757575;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+  
+    background-color: tomato;
+   
+    width: 100%;
+    height: 367px;
+  
+    transform: translate(0);
+    transition: transform 350ms linear;
+  
+    padding: 20px 30px;
+  }
+  
+  .mobile-menu.is-hidden {
+    transform: translate(100%);
+  }
+  
+  .close-button {
+    display: block;
+    width: 30px;
+    height: 18px;
+    margin-left: 280px;
+  
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  
+    margin-bottom: 10px;
+  }
+  
+  .close-menu-icon {
+    width: 30px;
+    height: 18px;
+    @media screen and (min-width: 375px) {
+    }
+  }
+  
+  .mobile-nav-list {
+  }
+  .mobile-nav-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  .mobile-nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+  
+    color: #212121;
+  }
