@@ -39,6 +39,25 @@ text-transform: uppercase;
 color: #E7E7E7;
 padding-bottom: 50px;
 
+@media screen and (max-width: 768px) {
+    /* The luxury of silence */
+
+height: 36px;
+
+text-align: end;
+position: relative;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+  
+padding-bottom: 32px;
+
+  }
 }
 
 .lux-ul{
