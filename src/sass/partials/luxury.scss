@@ -1,8 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.lux{
+    background: #191919;
+padding-top: 170px;
+padding-bottom: 170px;
+
+@media screen and (max-width: 1199px) {
+    padding-top: 100px;
+padding-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    padding-top: 52px;
+padding-bottom: 52wpx;
+}
+}
+
+.conteiner-lux{
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+
+@media screen and (max-width: 1199px) {
+    width: 648px;
+}
+
+@media screen and (max-width: 768px) {
+    width: 280px;
+}
+}
+
+.img-lux{
+    display: block;
+    width: 100%;
+    height: 524px;
+
+    @media screen and (max-width: 1199px) {
+height: 293px;
+    }
+}
+  
 .lux-h2{
     /* The luxury of silence */
 
-position: absolute;
-width: 624px;
+text-align: end;
+position: relative;
 font-family: 'Gilroy';
 font-style: normal;
 font-weight: 600;
@@ -14,5 +62,152 @@ text-transform: uppercase;
 
 color: #E7E7E7;
 
+ 
+padding-bottom: 50px;
+
+@media screen and (max-width: 1199px) {
+
+text-align: end;
+position: relative;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+  
+padding-bottom: 32px;
+
+  }
+
+@media screen and (max-width: 768px) {
+
+position: relative;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 29px */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #E7E7E7;
+
 
 }
+}
+
+.lux-ul{
+    display: flex;   
+    
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
+.lux-li:not(:last-child){
+    margin-right: 40px;
+}
+
+.lux-h3{
+    /* Maximum enjoyment */
+
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+/* or 35px */
+
+color: #E7E7E7;
+padding-bottom: 20px;
+padding-top: 50px;
+
+@media screen and (max-width: 1199px) {
+    /* Maximum enjoyment */
+
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 125%;
+/* identical to box height, or 25px */
+
+color: #E7E7E7;
+padding-bottom: 16px;
+padding-top: 32px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 125%;
+/* identical to box height, or 25px */
+
+color: #E7E7E7;
+
+
+}
+}
+
+.lux-p{
+    /* The speaker system and brand name active equalizer are able to provide high-quality and powerful sound at any volume level. You can be sure of no distortion and crystal clear at high and low frequencies. */
+
+width: 510px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 145%;
+/* or 29px */
+
+color: rgba(255, 255, 255, 0.8);
+
+@media screen and (max-width: 1199px) {
+
+width: 294px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+width: 280px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 125%;
+/* or 18px */
+
+color: rgba(255, 255, 255, 0.8);
+
+
+    
+}
+}
+
+

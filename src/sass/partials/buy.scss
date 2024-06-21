@@ -1,0 +1,230 @@
+.arrow{
+    stroke: #DF3D3A;
+    width: 20px;
+height: 20px;
+}
+
+.buy{
+    
+    background: #191919;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.buy-heading{
+    color: #E7E7E7;
+font-family: Gilroy-Bold;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 64.8px */
+letter-spacing: 1.08px;
+text-transform: uppercase;
+margin-bottom: 50px;
+@media screen and (max-width:320px) {
+    font-size: 24px;
+    order: 1;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width:1200px) {
+    font-size: 30px;
+    order: 1;
+    margin-bottom: 32px;
+}
+}
+
+.buy-info{
+    width: 270.75px;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Gilroy-Light;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 20px */
+}
+
+.buy-price{
+    color: #DF3D3A;
+font-family: Gilroy-Bold;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 64.8px */
+letter-spacing: 1.08px;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 32px;
+@media screen and (max-width:320px) {
+    font-size: 24px; 
+}
+
+@media screen and (max-width:1200px) {
+    font-size: 30px; 
+}
+}
+
+.purchase{
+    width: 400px;
+height: 68px;
+flex-shrink: 0;
+background: #DF3D3A;
+color: rgba(255, 255, 255, 0.90);
+font-family: Gilroy-Light;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.4px;
+text-transform: uppercase;
+outline: none;
+border: none;
+@media screen and (max-width:320px) {
+    width: 100%;
+height: 58px;
+flex-shrink: 0;
+}
+}
+
+.circle-cont{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.circle-black{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+margin-right: 20px;
+cursor: pointer;
+@media screen and (max-width:320px) {
+    width: 44px;
+height: 44px;
+margin-top: 32px;
+}
+
+@media screen and (max-width:1200px) {
+    width: 58px;
+height: 58px;
+margin-top: 64px;
+}
+}
+
+.circle-white{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+cursor: pointer;
+@media screen and (max-width:320px) {
+    width: 44px;
+height: 44px;
+}
+
+@media screen and (max-width:1200px) {
+    width: 58px;
+height: 58px;
+margin-top: 64px;
+}
+}
+
+.buy-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width:320px) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}
+
+
+.buy-line{
+    width: 100%;
+height: 2px;
+opacity: 0.1;
+background: rgba(255, 255, 255, 0.80);
+margin-bottom: 26px;
+}
+
+.buy-info{
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 25px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy-content{
+    margin-left: 190px;
+    @media screen and (max-width:320px) {
+        margin-left: 0px;
+        width: 90%;
+        margin-right: 30px;
+    }
+
+    @media screen and (max-width:1200px) {
+        margin-left: 30px;
+        width: 90%;
+    }
+}
+
+.buy-image{
+    @media screen and (max-width:320px) {
+        width: 300px;
+        display: block;
+    }
+
+    @media screen and (max-width:768px) {
+        width: 85vw;
+        height: 500px;
+        display: block;
+    }
+
+    @media screen and (max-width:1200px) {
+        width: 95vw;
+    }
+}
+
+.mob{
+    display: none;
+    @media screen and (max-width:320px) {
+        display: block;
+        margin-bottom: 32px;
+        
+    }
+    
+    @media screen and (max-width:1200px) {
+        display: block;
+        margin-bottom: 32px;
+    }
+}
+
+.desktop{
+    display: block;
+    @media screen and (max-width:320px) {
+        display: none;
+    }
+
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.purchase-text{
+    color: rgba(255, 255, 255, 0.90);
+font-family: Gilroy-Light;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.4px;
+text-transform: uppercase;
+}

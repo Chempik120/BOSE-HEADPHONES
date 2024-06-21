@@ -1,0 +1,196 @@
+.hero{
+    padding-top: 32px;
+    padding-bottom: 52px;
+    background-color: #191919;
+    @media  screen and (min-width:768px) {
+        padding-top: 50px;
+        padding-bottom: 50px;        
+    }
+    @media  screen and (min-width:1440px) {
+        padding-top: 72px;
+        padding-bottom: 85px;
+    }
+}
+.hero-container{
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    @media screen and (min-width:768px){
+        width: 768px;
+        padding-left: 60px;
+        padding-right: 0px;
+    }
+    @media screen and (min-width:1440px){
+        width: 1440px;
+        padding-left: 80px;
+    }
+}
+.hero-text{
+  
+    /* Noise cancellation headphones that are capable for a lot of things */
+
+   
+    width: 190px;
+    // height: 36px;
+   
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    /* or 18px */
+    
+    color: rgba(255, 255, 255, 0.8);
+
+    @media screen and (min-width:768px) {
+        width: 253px;
+        height: 46px;
+        
+        font-size: 18px;
+        line-height: 145%;
+        
+    }
+
+
+
+
+
+}
+.hero-text-second{
+    /* Up to 20 hours of playback */
+
+
+width: 93px;
+height: 36px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 125%;
+
+
+color: rgba(255, 255, 255, 0.8);
+margin-top: 16px;
+margin-bottom: 32px;
+@media screen and (min-width:768px) {
+    
+width: 110px;
+height: 46px;
+font-size: 18px;
+line-height: 145%;
+    margin-bottom: 105px;
+    
+}
+
+
+}
+.hero-title{
+    /* Headphones Bose NC 700 */
+
+
+width: 234px;
+height: 68px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 100%;
+/* or 34px */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #E7E7E7;
+margin-bottom: 32px;
+
+@media screen and( min-width:768px) {
+    width: 289px;
+height: 84px;
+
+font-size: 40px;
+    
+}
+@media screen and( min-width:1440px){
+    width: 470px;
+    margin-left: 110px;
+    height: 148px;
+font-size: 65px;
+margin-bottom: 86px;
+}
+
+
+
+
+}
+.hero-button{
+   
+
+background-color: #DF3D3A;
+width: 280px;
+height: 58px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.9);
+margin-bottom: 32px;
+@media screen and (min-width:768px) {
+    width: 294px;
+    margin-bottom: 0px;
+    
+}
+@media screen and (min-width:1440px){
+    width: 400px;
+    margin-left: 110px;
+    height: 68px;
+    
+}
+}
+.hero-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    @media screen and (min-width:768px) {
+        width: 354px;
+        height: 394px;
+        
+    }
+    @media screen and (min-width:1440px){
+        width: 700px;
+        height: 598px;
+    }
+}
+.hero-flex{
+    @media screen and (min-width:768px) {
+        display: flex;
+        
+    }
+}
+.hero-left{
+    @media screen and (min-width:768px) {
+        margin-right: 65px;
+        
+    }
+    @media screen and (min-width:1440px) {
+        margin-right: 50px;        
+    }
+}
+.hero-right{
+    @media screen and (min-width:768px) {
+        width: 354px;
+        height: 394px;
+        
+    }
+}
