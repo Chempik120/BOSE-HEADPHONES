@@ -7,58 +7,16 @@
 
 .foot {
   background-color: #191919;
-  padding-top: 170px;
+  background-image: url(../../images/foot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  padding-top: 694px;
   padding-bottom: 74px;
-  &::before {
-    content: '';
-
-    display: block;
-    margin: 0 auto;
-
-    width: 100%;
-    height: 524px;
-
-    background-image: url(../../images/foot.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 170px;
-  }
   @media screen and (max-width: 1199px) {
-    &::before {
-      @media only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) { background-image: url(../../images/foot-2xtablet.jpg);
-    }
-    background-image: url(../../images/foot-1xtablet.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
     padding-top: 460px;
     padding-bottom: 50px;
   }
-  @media screen and (max-width: 768px) {
-    padding-top: 88px;
-    background-image: none;
-    padding-bottom: 50px;
-    &::before {
-      content: '';
-
-      display: block;
-
-      width: 285px;
-      height: 235px;
-
-      background-color: grey;
-      background-image: url(../../images/foot.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-      margin-bottom: 16px;
-    }
-  }
-}
 }
 
 .conteiner-foot {
@@ -71,10 +29,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
     display: block;
     width: 648px;
   }
-  @media screen and (max-width: 767px) {
-    width: 320px;
-    padding: 0 20px;
-  }
 }
 
 .left-foot {
@@ -84,14 +38,11 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
     margin-right: 0;
     margin-bottom: 52px;
   }
-  @media screen and (max-width: 768px) {
-    margin-right: 0;
-    margin-bottom: 40px;
-    // & = .left-foot
-  }
 }
 
 .h2-foot {
+  /* Feedback */
+
   width: 400px;
 
   font-family: 'Gilroy-Light';
@@ -107,10 +58,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   margin-bottom: 50px;
   @media screen and (max-width: 1199px) {
     font-size: 30px;
-  }
-  @media screen and (max-width: 767px) {
-    font-size: 24px;
-    width: 280px;
   }
 }
 
@@ -131,27 +78,16 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
     // width: 445px;
     font-size: 20px;
   }
-
-  @media screen and (max-width: 768px) {
-    width: 240px;
-    font-size: 16px;
-  }
 }
 
 .form-foot {
   width: 510px;
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 767px) {
-    width: 280px;
-  }
 }
 
 .div-foot {
   display: flex;
-  @media screen and (max-width: 768px) {
-    width: 250px;
-  }
 }
 
 .input-foot:not(:last-child) {
@@ -173,10 +109,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   /* or 14px */
 
   color: rgba(255, 255, 255, 0.3);
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-    width: 280px;
-  }
 }
 
 .a {
@@ -184,11 +116,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   resize: none;
   margin-bottom: 51px;
   width: 510px;
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-    width: 280px;
-    height: 100px;
-  }
 }
 
 .checkbox-foot {
@@ -201,11 +128,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   width: 30px;
   height: 30px;
   border: 2px solid #e9edfa;
-  /* Rectangle 104 */
-  @media screen and (max-width: 768px) {
-    width: 30px;
-    height: 28px;
-  }
 }
 
 .p2-foot {
@@ -224,9 +146,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   /* 5/1 */
   color: #e9edfa;
   margin-left: 29px;
-  @media screen and (max-width: 768px) {
-    width: 182px;
-  }
 }
 
 .button-foot {
@@ -247,11 +166,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   background-color: transparent;
   border: 1px solid #df3d3a;
   padding: 22px 0;
-  @media screen and (max-width: 768px) {
-    padding: 20px 18px;
-    font-size: 16px;
-    width: 280px;
-  }
 }
 
 .ul234-foot {
@@ -269,7 +183,8 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
 
 .conteiner-foot2 {
   margin: 0 auto;
-
+  padding-left: 190px;
+  padding-right: 80px;
   padding-top: 170px;
   width: 1170px;
   @media screen and (max-width: 1199px) {
@@ -287,30 +202,14 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
 .div1-foot {
   display: flex;
   justify-content: space-between;
-  @media screen and (min-width: 1200px) {
-    justify-content: end;
-    display: flex;
-  }
-  @media screen and (max-width: 768px) {
-    margin-bottom: 52px;
-  }
+  margin-bottom: 52px;
 }
 
 .ul2-foot {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    margin-right: 50px;
-  }
   margin-right: 179px;
-  @media screen and (max-width: 768px) {
-    margin-right: 45px;
-  }
 }
 
 .ul3-foot {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-  }
   @media screen and (max-width: 768px) {
     text-align: right;
   }
@@ -326,9 +225,6 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
   /* identical to box height, or 20px */
 
   color: rgba(255, 255, 255, 0.3);
-  @media screen and (min-width: 1200px) {
-    margin-right: 50px;
-  }
   @media screen and (max-width: 1199px) {
     &:not(:last-child) {
       margin-bottom: 24px;
@@ -348,4 +244,3 @@ only screen and (min-resolution: 2dppx) { background-image: url(../../images/foo
 
   color: rgba(255, 255, 255, 0.8);
 }
- 
