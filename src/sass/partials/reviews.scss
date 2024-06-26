@@ -1,0 +1,182 @@
+.feedback {
+    background-color: #191919;
+    
+  }
+  
+  .feedback-container {
+    // ширина контейнеру (Включаючи розмір внутрішніх відступів)
+    width: 280px + 40px;
+    //  padding: 0 20px; - внутрішній відступ зліва та справа
+    padding: 0 20px;
+    // Дозволяєє вирівнювати елемнти по середині екрану по ширині
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      width: 648px + 120px;
+      padding: 0 60px;
+    }
+    @media screen and (min-width: 1440px) {
+      width: 1328px + 112px;
+      // padding-left: 0;
+      // padding-right: 112px;
+      // FIXME: padding error
+      padding: 0;
+      overflow: hidden;
+    }
+  }
+  
+  .feedback-heading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  
+    color: #e7e7e7;
+  
+    margin-bottom: 32px;
+  
+    @media screen and (min-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
+    @media screen and (min-width: 1440px) {
+      font-size: 54px;
+      line-height: 65px;
+      margin-bottom: 50px;
+      margin-left: 1070px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  
+  .review-image {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+      width: 648px;
+      height: 417px;
+    }
+    @media screen and (min-width: 1440px) {
+      width: 920px;
+      height: 590px;
+      position: absolute;
+      top: -123px;
+      left: 0;
+    }
+  }
+  
+  .news-heading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+  
+    color: #df3d3a;
+  
+    margin-bottom: 16px;
+    // @media screen and (min-width: 768px) {
+    // }
+    @media screen and (min-width: 1440px) {
+      font-size: 28px;
+      line-height: 35px;
+    }
+  }
+  
+  .news-describe {
+    width: 258px;
+  
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  
+    color: #ffffff;
+  
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+      width: 530px;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    @media screen and (min-width: 1440px) {
+      width: 258px;
+  
+      font-size: 20px;
+      line-height: 29px;
+  
+      margin-bottom: 70px;
+    }
+  }
+  
+  .slider-controls {
+    display: flex;
+    align-items: center;
+    @media screen and (min-width: 1440px) {
+      margin-left: 1070px;
+      position: relative;
+      top: 0px;
+    }
+  }
+  
+  .feedback-list {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .feedback-item {
+    flex: 0 0 100%;
+    @media screen and (min-width: 1440px) {
+      position: relative;
+    }
+  }
+  
+  .list-container {
+    overflow: hidden;
+    @media screen and (min-width: 1440px) {
+      overflow: visible;
+    }
+  }
+  
+  .text-container {
+    @media screen and (min-width: 1440px) {
+      margin-left: 1070px;
+    }
+  }
+  
+  .numeric-button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #df3d3a;
+    opacity: 0.3;
+  
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+  .numeric-button:hover {
+    opacity: 1;
+  }
+  
+  .numeric-divider {
+    margin-left: 20px;
+    margin-right: 15px;
+    width: 5px;
+    height: 19px;
+  
+    color: #df3d3a;
+    opacity: 1;
+  }
