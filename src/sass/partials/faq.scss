@@ -1,7 +1,7 @@
 .faq{
    padding-top: 16px;
   padding-bottom: 52px;
-    background-color: #252525;
+    background-color: #191919;
     @media screen and (min-width:768px){
         padding-top: 100px;
         padding-bottom: 100px;
@@ -22,8 +22,8 @@
         
     }
     @media screen and (min-width:1200px) {
-        // padding-left: 190px;
-        // padding-right: 190px;
+        width: 1060px;
+        padding-left: 0;
         
     }
 }
@@ -44,6 +44,7 @@ text-transform: uppercase;
 
 color: #E7E7E7;
 margin-bottom: 32px;
+padding-top: 3px;
 
 // !!!!!!!!!!!!!!!
 
@@ -69,18 +70,26 @@ margin-bottom: 32px;
 }
 .list-item:not(:last-child){
     margin-bottom: 24px;
+    @media screen and (min-width:1200px) {
+        margin-bottom: 60px;
+        
+    }
 }
 .list-item{
     display: flex;
-    align-items: center;
+    // align-items: center;
+    justify-content: center;
     border-bottom: 1px solid #434343;
-    padding-bottom: 24px;
+    // padding-bottom: 24px;
     @media  screen and (min-width:768px) {
-        padding-bottom: 37px;
+        padding-bottom: 17px;
         
     }
     @media  screen and (min-width:1200px) {
-        padding-bottom: 16px;
+        // padding-bottom: 16px;
+        align-items: baseline;
+        margin-top: 30px;
+        padding-bottom: 0px;
     }
 }
 .list-title{
@@ -90,6 +99,23 @@ margin-bottom: 32px;
 
 
 width: 20px;
+display: flex;
+align-items: center;
+
+@media screen and (min-width:768px) {
+    padding-bottom: 20px;
+    
+}
+@media screen and (min-width:1200px) {
+    // margin-bottom: 50px;
+}
+
+display: flex;
+    justify-content: space-between;
+ 
+    align-items: baseline;
+
+
 
 
 
@@ -105,13 +131,14 @@ color: #E7E7E7;
 
 .faq-text{
 
-width: 180px;
+// width: 180px;
 
 font-family: 'Gilroy-Regular', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 125%;
+margin-bottom: 20px;
 /* or 18px */
 
 color: rgba(255, 255, 255, 0.8);
@@ -119,28 +146,53 @@ color: rgba(255, 255, 255, 0.8);
 /* How to pair with a mobile device? */
 
 
-@media screen and (min-width:1200px) {
-    height: 35px;
-    width: 436px;
-font-weight: 600;
-font-size: 28px;
-line-height: 35px;
-    
-}
+
+
+
 @media screen  and (min-width:768px) {
-width: 600px;
+// width: 600px;
 font-size: 16px;
 line-height: 145%;
 // margin-right: 316px;
+align-self: flex-start;
+
+}
+
+@media screen  and (min-width:1200px) {
+    // height: 35px;
+    // width: 436px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 125%;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+
+
+
+    /* How to pair with a mobile device? */
+
+// font-family: 'Gilroy';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 28px;
+// line-height: 125%;
+// /* identical to box height, or 35px */
+
+// color: #E7E7E7;
+
+
 }
 
 
 
 }
 .faq-img{
+    align-self: flex-start;
     height: 32px;
     width: 32px;
     margin-left: 20px;
+    // margin-bottom: 10px;
     // @media screen and (min-width:1200px) {
     //     width: 42px;
     //     height: 42px;
@@ -151,7 +203,7 @@ line-height: 145%;
 
 
 .faq-text-second{ 
-    width: 160px !important;
+    // width: 160px !important;
     margin-right: 20px;
 
 
@@ -160,15 +212,27 @@ line-height: 145%;
    
 
     @media screen  and (min-width:768px) {
-        width: 544px !important;
+        // width: 544px !important;
     font-size: 16px;
     line-height: 145%;
   
         
     }
-
-
-
-
-
+    @media screen  and (min-width:1200px) {
+        // height: 35px;
+        // width: 436px;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    align-items: baseline;
+    @media screen and (min-width:1200px) {
+        
+    }
 }
